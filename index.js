@@ -10,7 +10,7 @@ dotenv.config();
 const port = process.env.PORT
 require('./db')
 
-const allowedOrigins = [process.env.FRONTEND_URL];
+const allowedOrigins = [https://champweb-frontend-2.onrender.com];
 
 app.use(
     cors({
